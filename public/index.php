@@ -22,7 +22,7 @@ use Phalcon\Db\Adapter\Pdo\Mysql as DbAdapter;
     $di->set("db", function() {
          return new DbAdapter(array(
              "host"     => "localhost",
-             "username" => "root",
+             "username" => "userdb",
              "password" => "senha",
              "dbname"   => "dbusers"
           ));
